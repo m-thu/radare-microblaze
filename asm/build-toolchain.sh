@@ -2,8 +2,8 @@
 TARGET=microblazeel-elf
 GDB_TARGET=microblaze-elf
 PREFIX=~/${TARGET}
-BINUTILS=2.26
-GCC=6.1.0
+BINUTILS=2.27
+GCC=6.2.0
 GMP=6.1.0
 MPC=1.0.3
 MPFR=3.1.4
