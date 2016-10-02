@@ -1,0 +1,8 @@
+language: c
+
+before_install:
+  - sh asm/build-toolchain.sh >/dev/null 2>&1
+  - sh asm/build-qemu.sh >/dev/null 2>&1
+
+script:
+  - "make -C asm"
